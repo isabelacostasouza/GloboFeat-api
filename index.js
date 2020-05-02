@@ -14,33 +14,34 @@ App.get('/', async (req, res) => {
 
     else {
 
-        const fs = require('fs');
-        fs.readFile('shows_data.json', 'utf8', (err, jsonString) => {
-            if (err) {
-                console.log("File read failed:", err)
-                return
-            }
+        if (entries.get_shows_json) {
+            const fs = require('fs');
+            fs.readFile('shows_data.json', 'utf8', (err, jsonString) => {
+                if (err) {
+                    console.log("File read failed:", err)
+                    return
+                }
 
-            let entries = req.query;
-            let json_content = JSON.parse(jsonString);
-            if (entries.get_shows_json) {
+                let entries = req.query;
+                let json_content = JSON.parse(jsonString);
                 return res.status(200).json(json_content);
-            }
-        });
+            });
+        }
 
-        const fs = require('fs');
-        fs.readFile('sports_data.json', 'utf8', (err, jsonString) => {
-            if (err) {
-                console.log("File read failed:", err)
-                return
-            }
-
-            let entries = req.query;
-            let json_content = JSON.parse(jsonString);
-            if (entries.get_sports_json) {
+        else if (entries.get_sports_json) {
+            const fs = require('fs');
+            fs.readFile('sports_data.json', 'utf8', (err, jsonString) => {
+                if (err) {
+                    console.log("File read failed:", err)
+                    return
+                }
+    
+                let entries = req.query;
+                let json_content = JSON.parse(jsonString);
                 return res.status(200).json(json_content);
-            }
-        });
+            });
+        }
+        
 
         const fs = require('fs');
         fs.readFile('users_data.json', 'utf8', (err, jsonString) => {
