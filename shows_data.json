@@ -1,0 +1,256 @@
+{
+    "users": {
+        "100000": {
+            "id": "100000",
+            "title": "Big Brother Brasil",
+            "sinopse": "BBB é um reality show onde os participantes são confinados em uma casa e são postos à prova tendo que conviver uns com os outros, participar de competições, fazer compras, enfrentar o temível paredão e uma série de outros desafios. E tudo isso regado a muita festa. A cada semana, um concorrente é eliminado e o grande vencedor recebe um prêmio. Na primeira edição o valor foi de R$ 500,000 para o ganhador. Já na 19ª a bolada foi de R$ 1,5 milhão.",
+            "link": "https://www.youtube.com/watch?v=MYr3ESzlVQA",
+            "recomendationNumber": 0
+        },
+        "100001": {
+            "id": "100001",
+            "title": "The Voice",
+            "sinopse": "O show de talentos musicais que são escolhidos apenas por suas vozes é um formato original da Endemol e teve sua primeira temporada na Globo em 2012. Na primeira fase das apresentações os Técnicos ficam de costas para o palco e selecionam os participantes pelo desempenho vocal apertando um botão vermelho em sua cadeira. A cadeira gira, e o técnico finalmente vê o concorrente. Eles montam times de cantores que competem entre si durante o reality.",
+            "link": "https://www.youtube.com/watch?v=fkfIDd79W2g",
+            "recomendationNumber": 0
+        },
+        "100002": {
+            "id": "100002",
+            "title": "Superstar",
+            "sinopse": "Reality musical, com formato inovador e interativo, que revela novas bandas. A atração é eclética e traz diversas vertentes musicais: rock, reggae, tecnobrega, samba, pagode, funk, pop, forró, entre outras. Fernanda Lima e André Marques comandam a atração e têm auxílio da Sala de Interatividade, onde acompanham a reação do público e as performances nas redes sociais. O clima e a torcida de parentes, amigos e famosos são destaques.",
+            "link": "https://www.youtube.com/watch?v=XeCzWLAoIds&list=PLwVg5m4D7nd8qXK-ER0JMNjglCyMLX7v0&index=2",
+            "recomendationNumber": 0
+        },
+        "100003": {
+            "id": "100003",
+            "title": "A Segunda dama",
+            "sinopse": "Após anos sem saber o paradeiro uma da outra, as gêmeas Analu (Heloísa Perissé) e Marali (Heloísa Perissé), se reencontram, trocam de identidade, provocam confusões e mudam a vida de todos da trama.",
+            "link": "https://www.youtube.com/watch?v=La129NGcVt4",
+            "recomendationNumber": 0
+        },
+        "100004": {
+            "id": "100004",
+            "title": "Dicas de um sedutor",
+            "sinopse": "Santiago Ortiz (Luiz Fernando Guimarães) é um consultor sentimental que descobriu a fórmula para aplacar os corações femininos: desvendar o que os homens desejam. Em Dicas de um Sedutor, exibido pela primeira vez na TV Globo como um especial de fim de ano e depois como um seriado de humor semanal, o personagem dá conselhos para conquistar e, se for o caso, reconquistar a pessoa amada. Ele tem um escritório onde, com a ajuda da secretária Arlete (Fabiana Gugli) – ex-secretária de sua antiga firma de exportação e importação –, busca finais felizes para as diversas histórias que ouve. Para isso, também faz as vezes de detetive e melhor amigo de suas clientes.",
+            "link": "https://www.youtube.com/watch?v=zqlNMUMUKhk",
+            "recomendationNumber": 0
+        },
+        "100005": {
+            "id": "100005",
+            "title": "Amizade colorida",
+            "sinopse": "O homem em questão é Eduardo Lusceno, o Edu (Antonio Fagundes), um solteirão carioca de trinta e poucos anos e don juan incorrigível, permanentemente perplexo diante da independência cada vez maior das mulheres. Fotógrafo freelancer que aceita qualquer tipo de trabalho para ganhar a vida, ele tem aventuras amorosas com mulheres de todos os gêneros, tipos físicos e classes sociais, que transitam pelo Estúdio Infinito, seu misto de apartamento e local de trabalho. ",
+            "link": "https://www.youtube.com/watch?v=3CyJOHMBouU",
+            "recomendationNumber": 0
+        },
+        "100006": {
+            "id": "100006",
+            "title": "Tropa de Elite",
+            "sinopse": "Tropa de Elite, alternativamente conhecido como Tropa de Elite - Missão Dada é Missão Cumprida,[2][3] é um filme policial brasileiro de 2007, com o gênero drama/filme policial , dirigido por José Padilha, que também escreveu seu roteiro, com Braulio Mantovani e Rodrigo Pimentel, e produziu com Marcos Prado. Tem como tema a violência urbana na cidade brasileira do Rio de Janeiro junto com a ajuda do Batalhão de Operações Policiais Especiais (BOPE) e da Polícia Militar do Estado do Rio de Janeiro. ",
+            "link": "https://www.youtube.com/watch?v=126YLdFgKJo",
+            "recomendationNumber": 0
+        },
+        "100007": {
+            "id": "100007",
+            "title": "O Caçador",
+            "sinopse": "A trama de O Caçador gira em torno de uma tradicional família de policiais que se orgulha do ofício. André (Cauã Reymond) segue os passos do pai, o aposentado Saulo (Jackson Antunes). O irmão Alexandre (Alejandro Claveaux) é delegado.",
+            "link": "https://www.youtube.com/watch?v=yQy-_TcEbhI",
+            "recomendationNumber": 0
+        },
+        "100008": {
+            "id": "100008",
+            "title": "Reza a Lenda",
+            "sinopse": "Reza a Lenda é um filme brasileiro dirigido pelo cineasta Homero Olivetto, com a co-produção da Imagem Filmes, da Globo Filmes e da hollywoodiana Paramount Pictures. Foi filmado em 2014 nas cidades de Petrolina, Juazeiro e Sobradinho e também contou com atores locais não apenas como figurantes mas também em papéis de destaque. ",
+            "link": "https://www.youtube.com/watch?v=BF_73gKHaxo",
+            "recomendationNumber": 0
+        },
+        "100009": {
+            "id": "100009",
+            "title": "O Clone",
+            "sinopse": "A muçulmana Jade vive um amor impossível com o brasileiro Lucas, que após ter seu irmão gêmeo morto, tem seus genes guardados, originando a primeira clonagem humana da história.",
+            "link": "https://www.youtube.com/watch?v=le3t5dFDaAE",
+            "recomendationNumber": 0
+        },
+        "100010": {
+            "id": "100010",
+            "title": "Fina Estampa",
+            "sinopse": "Griselda acredita que o marido Pereirinha morreu durante uma pescaria, já que seu corpo nunca foi encontrado. Com os filhos para criar, ela começa a fazer pequenos consertos domésticos nas casas dos vizinhos e a cobrar por isso para se manter.",
+            "link": "https://www.youtube.com/watch?v=yPiVy2ymvPM",
+            "recomendationNumber": 0
+        },
+        "100011": {
+            "id": "100011",
+            "title": "Avenida Brasil",
+            "sinopse": "Avenida Brasil conta a história de uma jovem que, desde os 11 anos, planeja um acerto de contas com a madrasta. Rita (Mel Maia), órfã de mãe, era criada, com muito amor, pelo pai Genésio (Tony Ramos). Tudo muda quando ele se casa com Carmen Lúcia, a Carminha (Adriana Esteves), uma mulher ambiciosa e dissimulada. Com Genésio, ela se passava por esposa doce e dedicada; com Rita, era uma madrasta má.",
+            "link": "https://www.youtube.com/watch?v=nZLA2Ig0Yjg",
+            "recomendationNumber": 0
+        },
+        "100012": {
+            "id": "100012",
+            "title": "Supermax",
+            "sinopse": "Doze selecionados participam de um reality show dentro de uma cadeia desativada na Amazônia, a Supermax, que dá nome à série. Em comum, todos cometeram um crime e, além do prêmio de dois milhões de reais, querem ganhar o perdão do público. Comandado por Pedro Bial, o programa fictício começa com a apresentação dos jogadores.",
+            "link": "https://www.youtube.com/watch?v=FL50CG_Y6Fc",
+            "recomendationNumber": 0
+        },
+        "100013": {
+            "id": "100013",
+            "title": "Cidade dos Homens",
+            "sinopse": "Laranjinha (Darlan Cunha) e Acerola (Douglas Silva) são dois garotos de 13 anos que enfrentam, entre outros problemas, o poder do tráfico de drogas e a falta de dinheiro. O seriado acompanhou o crescimento dos jovens durante quatro temporadas.",
+            "link": "https://www.youtube.com/watch?v=earHOIDAh8Q",
+            "recomendationNumber": 0
+        },
+        "100014": {
+            "id": "100014",
+            "title": "Tapas e Beijos",
+            "sinopse": "As paixões e crises amorosas de Sueli (Andréa Beltrão) e Fátima (Fernanda Torres) norteiam a trama do seriado Tapas & Beijos. As duas são grandes amigas e dividem um apartamento no Méier, na zona norte carioca. São funcionárias da Djalma Noivas, em Copacabana, zona sul, loja que aluga vestidos e vende artigos para cerimônias de casamento.",
+            "link": "https://www.youtube.com/watch?v=RMlsYlkireI",
+            "recomendationNumber": 0
+        },
+        "100015": {
+            "id": "100015",
+            "title": "The Big Bang Theory",
+            "sinopse": "The Big Bang Theory é uma série de televisão norte-americana de comédia de situação criada por Chuck Lorre e Bill Prady, que estreou no canal CBS em 24 de setembro de 2007, conta com cinco personagens que vivem em Pasadena: O físico teórico Sheldon Cooper e o físico experimental Leonard Hofstadter, ambos vivendo juntos, partilhando um apartamento e trabalhando no Instituto de Tecnologia da Califórnia - Caltech; Penny, uma garçonete e aspirante a atriz que mais tarde se torna uma representante farmacêutica, e que vive como vizinha de ambos; o engenheiro aeroespacial Howard Wolowitz e o astrofísico Rajesh Koothrappali, amigos e colegas de trabalho geeks semelhantes e socialmente desajeitados de Leonard e Sheldon. ",
+            "link": "https://www.youtube.com/watch?v=wiQz9DTEyok",
+            "recomendationNumber": 0
+        },
+        "100016": {
+            "id": "100016",
+            "title": "Guerra e Paz",
+            "sinopse": "Guerra e Paz conta a história de Bárbara Palermo (Danielle Winits) – uma escritora frustrada por ter de adotar um pseudônimo, Paloma Paz, para vender mais livros em bancas de jornal – e de Pedro Guerra (Marcos Pasquim), um policial que adora correr riscos e que, na adolescência, foi a grande paixão de Bárbara. Na verdade, ele é a grande inspiração de Bárbara para a redação de seus livros.",
+            "link": "https://www.youtube.com/watch?v=nh5Q_mmwaO0",
+            "recomendationNumber": 0
+        },
+        "100017": {
+            "id": "100017",
+            "title": "Chapa Quente",
+            "sinopse": "Marlene (Ingrid Guimarães) e Genésio (Leandro Hassum) vivem às turras na trama do seriado Chapa Quente. Ele é desempregado e vive se metendo em trapalhadas para conseguir dinheiro. Marlene é dona de um salão de beleza em São Gonçalo, município da região metropolitana do Rio de Janeiro. O casal mora no segundo andar do estabelecimento e Marlene não perde a esperança do marido conseguir um trabalho honesto.",
+            "link": "",
+            "recomendationNumber": 0
+        },
+        "100018": {
+            "id": "100018",
+            "title": "",
+            "sinopse": "",
+            "link": "",
+            "recomendationNumber": 0
+        },
+        "100019": {
+            "id": "100019",
+            "title": "",
+            "sinopse": "",
+            "link": "",
+            "recomendationNumber": 0
+        },
+        "100020": {
+            "id": "100020",
+            "title": "",
+            "sinopse": "",
+            "link": "",
+            "recomendationNumber": 0
+        },
+        "100021": {
+            "id": "100021",
+            "title": "",
+            "sinopse": "",
+            "link": "",
+            "recomendationNumber": 0
+        },
+        "100022": {
+            "id": "100022",
+            "title": "",
+            "sinopse": "",
+            "link": "",
+            "recomendationNumber": 0
+        },
+        "100023": {
+            "id": "100023",
+            "title": "",
+            "sinopse": "",
+            "link": "",
+            "recomendationNumber": 0
+        },
+        "100024": {
+            "id": "100024",
+            "title": "",
+            "sinopse": "",
+            "link": "",
+            "recomendationNumber": 0
+        },
+        "100025": {
+            "id": "100025",
+            "title": "",
+            "sinopse": "",
+            "link": "",
+            "recomendationNumber": 0
+        },
+        "100026": {
+            "id": "100026",
+            "title": "",
+            "sinopse": "",
+            "link": "",
+            "recomendationNumber": 0
+        },
+        "100027": {
+            "id": "100027",
+            "title": "",
+            "sinopse": "",
+            "link": "",
+            "recomendationNumber": 0
+        },
+        "100028": {
+            "id": "100028",
+            "title": "",
+            "sinopse": "",
+            "link": "",
+            "recomendationNumber": 0
+        },
+        "100029": {
+            "id": "100029",
+            "title": "",
+            "sinopse": "",
+            "link": "",
+            "recomendationNumber": 0
+        },
+        "100030": {
+            "id": "100030",
+            "title": "",
+            "sinopse": "",
+            "link": "",
+            "recomendationNumber": 0
+        },
+        "100031": {
+            "id": "100031",
+            "title": "",
+            "sinopse": "",
+            "link": "",
+            "recomendationNumber": 0
+        },
+        "100032": {
+            "id": "100032",
+            "title": "",
+            "sinopse": "",
+            "link": "",
+            "recomendationNumber": 0
+        },
+        "100033": {
+            "id": "100033",
+            "title": "",
+            "sinopse": "",
+            "link": "",
+            "recomendationNumber": 0
+        },
+        "100034": {
+            "id": "100034",
+            "title": "",
+            "sinopse": "",
+            "link": "",
+            "recomendationNumber": 0
+        },
+        "100035": {
+            "id": "100035",
+            "title": "",
+            "sinopse": "",
+            "link": "",
+            "recomendationNumber": 0
+        }
+    }
+}
