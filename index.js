@@ -14,6 +14,8 @@ App.get('/', async (req, res) => {
 
     else {
 
+        let entries = req.query;
+
         if (entries.get_shows_json) {
             const fs = require('fs');
             fs.readFile('shows_data.json', 'utf8', (err, jsonString) => {
@@ -21,10 +23,9 @@ App.get('/', async (req, res) => {
                     console.log("File read failed:", err)
                     return
                 }
-
-                let entries = req.query;
-                let json_content = JSON.parse(jsonString);
-                return res.status(200).json(json_content);
+    
+                 let json_content = JSON.parse(jsonString);
+                 return res.status(200).json(json_content);
             });
         }
 
@@ -36,21 +37,18 @@ App.get('/', async (req, res) => {
                     return
                 }
     
-                let entries = req.query;
-                let json_content = JSON.parse(jsonString);
-                return res.status(200).json(json_content);
+                 let json_content = JSON.parse(jsonString);
+                 return res.status(200).json(json_content);
             });
         }
-        
 
-        const fs = require('fs');
+        const fs = require('fs')
         fs.readFile('users_data.json', 'utf8', (err, jsonString) => {
             if (err) {
                 console.log("File read failed:", err)
                 return
             }
 
-            let entries = req.query;
             let json_content = JSON.parse(jsonString);
 
             if (entries.get_json) {
