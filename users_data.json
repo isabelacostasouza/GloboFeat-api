@@ -7,8 +7,8 @@
             "hasAccessedBefore": true,
             "isPremium": false,
             "showCategories": [
-                "movies_romance",
-                "reality_shows"
+                "romance",
+                "shows"
             ],
             "sportCategories": [
                 "soccer",
@@ -16,7 +16,7 @@
             ],
             "news": [
                 "cars",
-                "fashion"
+                "culture"
             ],
             "likedShows": [
                 "100000",
@@ -50,8 +50,8 @@
             "hasAccessedBefore": true,
             "isPremium": true,
             "showCategories": [
-                "movies_romance",
-                "series_comedy"
+                "romance",
+                "comedy"
             ],
             "sportCategories": [
                 "olympics",
@@ -90,12 +90,12 @@
             "hasAccessedBefore": true,
             "isPremium": false,
             "showCategories": [
-                "movies_action",
-                "series_fiction"
+                "action",
+                "sci-fi"
             ],
             "sportCategories": [
                 "soccer",
-                "cartola"
+                "basketball"
             ],
             "news": [],
             "likedShows": [
@@ -133,8 +133,8 @@
             "hasAccessedBefore": true,
             "isPremium": true,
             "showCategories": [
-                "series_comedy",
-                "series_romance"
+                "comedy",
+                "romance"
             ],
             "sportCategories": [
                 "volei"
