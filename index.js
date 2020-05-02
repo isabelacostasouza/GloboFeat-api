@@ -5,6 +5,9 @@ const App = express();
 const url = 'https://sheets.googleapis.com/v4/spreadsheets/1T0gabZY6gI3FVwB_2neCU8rMD77Yw7EPqwSCAANMl04/values/A:C?key=AIzaSyA14V1IH_ZCL-MsmboOVY64LhfWoZ_jEKE';
 
 App.get('/', async (req, res) => {   
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    
     if(Object.entries(req.query).length === 0) {
         return res.sendFile(path.resolve('main-page.html'));
     }
