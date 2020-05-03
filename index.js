@@ -4,10 +4,10 @@ var path = require('path');
 const App = express();
 const url = 'https://sheets.googleapis.com/v4/spreadsheets/1T0gabZY6gI3FVwB_2neCU8rMD77Yw7EPqwSCAANMl04/values/A:C?key=AIzaSyA14V1IH_ZCL-MsmboOVY64LhfWoZ_jEKE';
 
-App.get('/', async (req, res) => {   
+App.get('/', async (req, res) => {
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-    
+
     if(Object.entries(req.query).length === 0) {
         return res.sendFile(path.resolve('main-page.html'));
     }
@@ -23,7 +23,7 @@ App.get('/', async (req, res) => {
                     console.log("File read failed:", err)
                     return
                 }
-    
+
                  let json_content = JSON.parse(jsonString);
                  return res.status(200).json(json_content);
             });
@@ -36,12 +36,12 @@ App.get('/', async (req, res) => {
                     console.log("File read failed:", err)
                     return
                 }
-    
+
                  let json_content = JSON.parse(jsonString);
                  return res.status(200).json(json_content);
             });
-        } 
-        
+        }
+
         else {
 
             const fs = require('fs')
@@ -67,7 +67,7 @@ App.get('/', async (req, res) => {
 
                 if (entries.setShowCategory) {
                     json_content.users[entries.user].showCategories.push(entries.setShowCategory);
-                    
+
                     const fs = require('fs');
                     const jsonString = JSON.stringify(json_content)
                     fs.writeFile('users_data.json', jsonString, err => {});
@@ -75,7 +75,7 @@ App.get('/', async (req, res) => {
 
                 if (entries.setSportCategory) {
                     json_content.users[entries.user].sportCategories.push(entries.setSportCategory);
-                    
+
                     const fs = require('fs');
                     const jsonString = JSON.stringify(json_content)
                     fs.writeFile('users_data.json', jsonString, err => {});
@@ -83,7 +83,7 @@ App.get('/', async (req, res) => {
 
                 if (entries.setNewsCategory) {
                     json_content.users[entries.user].news.push(entries.setNewsCategory);
-                    
+
                     const fs = require('fs');
                     const jsonString = JSON.stringify(json_content)
                     fs.writeFile('users_data.json', jsonString, err => {});
@@ -91,7 +91,7 @@ App.get('/', async (req, res) => {
 
                 if (entries.setShowLiked) {
                     json_content.users[entries.user].likedShows.push(entries.setShowLiked);
-                    
+
                     const fs = require('fs');
                     const jsonString = JSON.stringify(json_content)
                     fs.writeFile('users_data.json', jsonString, err => {});
@@ -99,7 +99,7 @@ App.get('/', async (req, res) => {
 
                 if (entries.setSportLiked) {
                     json_content.users[entries.user].likedSports.push(entries.setSportLiked);
-                    
+
                     const fs = require('fs');
                     const jsonString = JSON.stringify(json_content)
                     fs.writeFile('users_data.json', jsonString, err => {});
@@ -107,7 +107,7 @@ App.get('/', async (req, res) => {
 
                 if (entries.setNewsLiked) {
                     json_content.users[entries.user].likedNews.push(entries.setNewsLiked);
-                    
+
                     const fs = require('fs');
                     const jsonString = JSON.stringify(json_content)
                     fs.writeFile('users_data.json', jsonString, err => {});
@@ -115,7 +115,7 @@ App.get('/', async (req, res) => {
 
                 if (entries.setFriend) {
                     json_content.users[entries.user].friends.push(entries.setFriend);
-                    
+
                     const fs = require('fs');
                     const jsonString = JSON.stringify(json_content)
                     fs.writeFile('users_data.json', jsonString, err => {});
