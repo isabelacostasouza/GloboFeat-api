@@ -57,6 +57,25 @@ App.get('/', async (req, res) => {
                     return res.status(200).json(json_content);
                 }
 
+                if(entries.restore_personalization) {
+                    json_content.users[entries.user].hasAccessedBefore = false;
+                    json_content.users[entries.user].showCategories = [];
+                    json_content.users[entries.user].sportCategories = [];
+                    json_content.users[entries.user].news = [];
+
+                    const fs = require('fs');
+                    const jsonString = JSON.stringify(json_content)
+                    fs.writeFile('users_data.json', jsonString, err => {});
+                }
+
+                if (entries.restore_friends) {
+                    json_content.users[entries.user].friends = [];
+
+                    const fs = require('fs');
+                    const jsonString = JSON.stringify(json_content)
+                    fs.writeFile('users_data.json', jsonString, err => {});
+                }
+
                 if (entries.setHasAccessedBefore) {
                     json_content.users[entries.user].hasAccessedBefore = true;
 
