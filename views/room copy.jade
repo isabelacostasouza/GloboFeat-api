@@ -1,0 +1,20 @@
+extends layout
+block content
+    #wrapper
+        header
+            h1 Bem vindo(a) ao feat. #{room}
+        #player
+        #rightcolumn
+            #chat
+                ul#chatbox
+                form#chatForm
+                    input#msg(type='text',autocomplete="off",maxlength="240")
+            #users
+                ul
+            #drag
+        #content
+            #ctrls
+                input#videoId(type='hidden', placeholder='video url', value="#{videourl}")
+                button(type='button')#addVideoBtn Começar
+                //- button(type='button')#next Next
+                button(type='button')#resync Sincronizar

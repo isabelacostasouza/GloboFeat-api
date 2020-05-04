@@ -1,0 +1,38 @@
+extends layout
+block content
+    #navbar_without_login
+      #profile_picture
+        a(href='http://globofeat.online/authentication')
+          img(src='https://drive.google.com/uc?id=1yPknp0FlskYWK1JOgWZr3ONNwe5eiKrJ')
+    #navbar(style='display: none;')
+      p#username
+      #profile_picture
+        a(href='http://globofeat.online/authentication')
+          img#user_picture
+                
+    #wrapper
+        #info
+        #player
+        #botoes
+            button(type='button')#addVideoBtn começar transmissão
+            button(type='button')#resync sincronizar
+            input#videoId(type='hidden', placeholder='video url', value="#{videourl}")
+        #rightcolumn
+            #chat
+                ul#chatbox
+                form#chatForm
+                    input#msg(type='text',autocomplete="off",maxlength="240")
+            #users
+                ul
+            #drag
+
+    #footer
+        a(href='http://globofeat.online/news')
+            img#news(src='https://drive.google.com/uc?id=1nTZU964j_8eI50QxYwPGG0G6edOzzv6T')
+         a(href='http://globofeat.online/shows')
+            img#shows(src='https://drive.google.com/uc?id=162SA0-NXrikBOWvK7TAZ-3fICneFaIH1')
+        a(href='http://globofeat.online/sports')
+            img#sports(src='https://drive.google.com/uc?id=1rxZGf4a1_xJIgV1R1U4E-6TBZnK4skcJ')
+        a(href='http://globofeat.online/feat-home')
+            img#play(src='https://drive.google.com/uc?id=15oQ3eUunFOoET8yYJrwXLZ7O4Xk0pudQ')
+        

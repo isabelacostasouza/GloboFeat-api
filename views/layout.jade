@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title= GloboFeat
+    script(src='/javascripts/youtube.js')
+    script(src='/libs/jquery-2.1.4.min.js')
+    script(src='/libs/linkify.min.js')
+    script(src='/libs/linkify-jquery.min.js')
+    script(src='/socket.io/socket.io.js')
+    script.
+          var socket = io.connect(window.location.host);
+          var roomName = '#{room}';
+          var videourl = '#{videourl}';
+          var user = '#{user}';
+    script(src='/javascripts/script.js')
+    script(src='/javascripts/client.js')
+    script(src='/javascripts/room-ui.js')
+    script(src='/javascripts/emotes.js')
+    link(rel='stylesheet', href='/stylesheets/room.css')
+    link(rel='stylesheet', href='/stylesheets/site.css')
+  body
+    block content

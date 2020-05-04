@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;400&display=swap');
+
+#navbar img {
+    border: 2px solid #7DA627;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+  
+    height: 62.5%;
+    margin-right: 5%;
+    box-sizing: border-box;
+    border-radius: 100%;
+  }
+
+#navbar_without_login {
+  padding-right: 5%;
+}
+
+#navbar_without_login #profile_picture {
+  margin-right: 10%;
+}
+
+#navbar {
+  background-color: #131313;
+  position: fixed;
+  height: 9%;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 120%;
+  letter-spacing: 0.05em;
+  color: white;
+
+  text-align: right;
+  vertical-align: middle;
+  z-index: 2;
+}
+
+#navbar p {
+  font-size: 250%;
+  position:absolute;
+  left: 25%;
+  right: 20%;
+}
+
+#navbar_without_login {
+  background-color: #131313;
+  position: fixed;
+  height: 9%;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 120%;
+  letter-spacing: 0.05em;
+  color: white;
+
+  text-align: right;
+  vertical-align: middle;
+  z-index: 2;
+}
+
+#navbar_without_login  p {
+  position:absolute;
+  top:27%;
+  left: 25%;
+  right: 20%;
+}
+
+#navbar_without_login img {
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+
+  height: 62.5%;
+  margin-right: 5%;
+  box-sizing: border-box;
+  border-radius: 100%;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  z-index: 10000;
+  height: 11%;
+  background-color: #131313;
+}
+
+#footer img {
+    width: 6.5%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+}
+
+#footer #news {
+    left: 10%;
+}
+
+#footer #shows {
+    width: 7.5%;
+    left: 34%;
+}
+
+#footer #sports {
+    width: 7.7%;
+    right: 34%;
+}
+
+#footer #play {
+    right: 10%;
+  }
+
+#info {
+  height: 200px;
+  margin-top: 140px !important;
+  color: #5B5B5B;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 220%;
+  margin-left: 50px;
+}
+
+body {
+    background: #1D1D1D !important;
+}
+
+#wrapper {
+    margin: 20px auto;
+}
+
+#player {
+  margin-left: 2.5%;
+  width: 95%;
+  height: 520px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: rgba(0,0,0,0.1);
+}
+
+#botoes {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#botoes > button {
+  color:#5B5B5B;
+  font-size: 130%;
+  font-style: normal;
+  font-weight: 100;
+  display: block;
+  width: 230px;
+  height: 40px;
+  margin: 10px;
+  background-color: #131313;
+  border: solid 2px#5B5B5B;
+}
+
+#chat, #users{
+  height:378px;
+  background-color: rgba(0,0,0,0.1);
+}
+#users{
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+#rightcolumn {
+    min-width:460px;
+    height:480px;
+    min-height:480px;
+    max-height:780px;
+    float: right;
+}
+
+#drag {
+    clear:both;
+    cursor:s-resize;
+    min-width:400px;
+    transition: min-height 0.2s;
+    min-height: 4px;
+    background-color:rgba(64, 119, 128, 0.35);
+}
+
+#drag:hover {
+    background-color: rgba(87, 226, 249, 0.71);
+    min-height: 8px;
+}
+
+#users {
+    width: 160px;
+    max-width: 160px;
+    min-height: 100%;
+}
+
+#chat {
+  height:100%;
+  width:300px;
+}
+
+#chat ul {
+    background-color:#f0f0f0;
+}
+
+#msg {
+  width: 285px;
+  height: 30px;
+  padding-left: 12px;
+}
+
+#users ul {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+  Chatbox
+**/
+
+#chatbox {
+  height: calc(100% - 36px);
+  overflow:auto;
+  word-wrap:break-word;
+  padding: 0;
+  margin:0;
+  border-right: 1px solid #c4c4c4;
+}
+
+#chatbox li, #users ul li {
+  list-style-type: none;
+  padding-left: 5px;
+}
+#chatbox li:hover, #users ul li:hover {
+  background-color: rgba(31, 62, 62, 0.05);
+  cursor: pointer;
+}
+
+/**
+  Playlist
+**/
+
+#clear, #shuffle {
+    display:none;
+}
+
+#roomPlaylist {
+  height: 80%;
+  overflow-y: auto;
+  background-color:#555;
+}
+
+#videos li {
+  background-color: #4a4a4a;
+  color:#d6d6d6;
+  counter-increment: step-counter;
+  list-style-type: none;
+  border-bottom: 1px solid #b8b8b8;
+}
+
+#videos li div {
+  text-overflow: ellipsis;
+  overflow:hidden;
+}
+
+#videos li a, #videos li div:first-child::before  {
+  font-size: 1em;
+}
+
+#videos li div:first-child::before {
+  content: counter(step-counter);
+  margin-right: 2px;
+  padding: 3px 8px;
+}
+
+#videos .active  {
+    background-color:#fff;
+    color:#000;
+}
+
+#videos li:hover:not(.active) {
+    cursor: pointer;
+    background-color:rgba(1,1,1,0.5);
+}
+
+/**
+  Info
+**/
+
+#info {
+  margin-top: 5px;
+}
+#info .numVideos {
+  float:left;
+}
+
+#info .duration {
+  float:right;
+}
