@@ -29,6 +29,20 @@ App.get('/', async (req, res) => {
             });
         }
 
+        else if (entries.get_feat_json) {
+            const fs = require('fs');
+            fs.readFile('feat_data.json', 'utf8', (err, jsonString) => {
+                if (err) {
+                    console.log("File read failed:", err)
+                    return
+                }
+
+                 let json_content = JSON.parse(jsonString);
+                 return res.status(200).json(json_content);
+            });
+        }
+
+
        else if (entries.get_sports_json) {
             const fs = require('fs');
             fs.readFile('sports_data.json', 'utf8', (err, jsonString) => {
@@ -43,7 +57,6 @@ App.get('/', async (req, res) => {
         }
 
         else {
-
             const fs = require('fs')
             fs.readFile('users_data.json', 'utf8', (err, jsonString) => {
                 if (err) {
