@@ -42,6 +42,56 @@ App.get('/', async (req, res) => {
             });
         }
 
+        else if (entries.setNewFeat) {
+            const fs = require('fs');
+            fs.readFile('feats_data.json', 'utf8', (err, jsonString) => {
+                if (err) {
+                    console.log("File read failed:", err)
+                    return
+                }
+
+                let json_content = JSON.parse(jsonString);
+
+                let wanted_content_id = entries.setNewFeat.substring(0, entries.setNewFeat.length - 1);
+                wanted_content_id = wanted_content_id.substring(0, wanted_content_id.length - 1);
+
+                let wanted_feat_id = entries.setNewFeat.substr(entries.setNewFeat.length - 2);
+
+                json_content.feats[wanted_content_id].owner.push(wanted_feat_id);
+                json_content.feats[wanted_content_id].hasStarted.push("false");
+
+                const fs = require('fs');
+                const newJsonString = JSON.stringify(json_content)
+                fs.writeFile('feats_data.json', newJsonString, err => {});
+            });
+        }
+
+        else if (entries.startFeat) {
+            const fs = require('fs');
+            fs.readFile('feats_data.json', 'utf8', (err, jsonString) => {
+                if (err) {
+                    console.log("File read failed:", err)
+                    return
+                }
+
+                let json_content = JSON.parse(jsonString);
+
+                let wanted_content_id = entries.startFeat.substring(0, entries.startFeat.length - 1);
+                wanted_content_id = wanted_content_id.substring(0, wanted_content_id.length - 1);
+
+                let wanted_feat_id = entries.startFeat.substr(entries.startFeat.length - 2);
+
+                let feat_has_started = Array(json_content.feats[wanted_content_id].hasStarted);
+                feat_has_started[0][parseInt(wanted_feat_id)] = 'true';
+
+                json_content.feats[wanted_content_id].hasStarted = feat_has_started;
+
+                const fs = require('fs');
+                const newJsonString = JSON.stringify(json_content)
+                fs.writeFile('feats_data.json', newJsonString, err => {});
+            });
+        }
+
 
        else if (entries.get_sports_json) {
             const fs = require('fs');
